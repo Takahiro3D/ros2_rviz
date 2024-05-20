@@ -1,0 +1,38 @@
+{
+  "name": "ROS2 rviz2 Workspace humble-desktop-full",
+  // "remoteUser": "rosdev",
+  "image": "osrf/ros:humble-desktop-full",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "eamodio.gitlens",
+        "ms-iot.vscode-ros",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "redhat.vscode-xml",
+        "smilerobotics.urdf",
+        "charliermarsh.ruff",
+        "tamasfe.even-better-toml",
+        "timonwong.shellcheck",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "files.associations": {
+          "*.rviz": "yaml",
+          "*.srdf": "xml",
+          "*.urdf": "xml",
+          "*.xacro": "xml"
+        }
+      }
+    }
+  },
+  "workspaceFolder": "/home/ros2_ws",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/home/ros2_ws/src,type=bind",
+  "mounts": [],
+  "runArgs": [
+    "--name",
+    "ros_rviz_devcontainer"
+    // "--net=host"
+  ],
+  "postCreateCommand": "/bin/bash /home/ros2_ws/src/.devcontainer/ros_entrypoint.sh"
+}

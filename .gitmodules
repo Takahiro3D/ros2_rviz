@@ -1,0 +1,4 @@
+[submodule "rviz_plugin_tutorial"]
+	path = rviz_plugin_tutorial
+	url = https://github.com/MetroRobots/rviz_plugin_tutorial.git
+	branch = main

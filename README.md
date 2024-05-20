@@ -33,4 +33,4 @@ arg 2 <target_frameid> : to
 
 It will be displayed the target frame trajectory as following.
 
-![alt text](doc/tf2_converter.png.png)
+![alt text](doc/tf2_converter.png)

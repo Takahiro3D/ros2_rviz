@@ -1,7 +1,7 @@
 {
-  "name": "ROS2 rviz2 Workspace humble-desktop-full",
-  // "remoteUser": "rosdev",
-  "image": "osrf/ros:humble-desktop-full",
+  "name": "ROS2 rviz2 Workspace jazzy-desktop-full",
+  "remoteUser": "ubuntu",
+  "image": "osrf/ros:jazzy-desktop-full",
   "customizations": {
     "vscode": {
       "extensions": [
